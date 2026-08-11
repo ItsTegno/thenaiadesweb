@@ -183,3 +183,7 @@ p{
     border-bottom: 1px solid var(--dark-green);
     padding-bottom: 12px;
 }
+
+.paragraph {
+    text-align: justify;
+}
