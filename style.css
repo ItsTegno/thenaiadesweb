@@ -162,6 +162,7 @@ p{
     /*border-right: 1px solid var(--line);*/
     transition: .2s ease;
     flex-direction: column;
+    border-radius: 18px;
 }
 .project img{
     border-radius: 10px;
