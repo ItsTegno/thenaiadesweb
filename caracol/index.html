@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CARACOL CARACOL</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+        }
+        .container img {
+            width: 500px;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+<div class = "container">
+    <img src="media/Cover.jpg" class="background" id ="background" alt="Background"/>
+    <audio id="backgroundMusic" src="media/06-Master-CARACOL.mp3" loop></audio>
+</div>
+<script>
+    const music = document.getElementById('backgroundMusic');
+
+    music.play();
+</script>
+</body>
+</html>
