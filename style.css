@@ -17,8 +17,8 @@
 }
 
 body{
-    margin: 0px;
-    font-family: 'JetBrains Mono', Icons;
+    margin: 0;
+    font-family: 'JetBrains Mono', Icons, serif;
     background: black;
     color: white;
 }
@@ -118,7 +118,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: clamp(35px, 6vw, 90px);;
+    padding: clamp(35px, 6vw, 90px);
     background: linear-gradient(to bottom, transparent, var(--panel));
 }
 .hero-content {
@@ -141,6 +141,7 @@ p{
 
 .section-content {
     max-width: 1250px;
+    padding: clamp(35px, 6vw, 90px);
 }
 
 .content-grid {
