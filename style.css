@@ -30,7 +30,7 @@ body::selection {
 
 main{
     overflow: hidden;
-    background: var(--panel);
+    /*background: var(--panel);*/
 }
 header{
     display: flex;
@@ -68,7 +68,7 @@ h2{
 }
 h3{
     margin: 0;
-    font-size: clamp(10px, 6vw, 25px);
+    font-size: 25px;
     text-decoration: none;
     color: var(--title);
 }
@@ -117,8 +117,9 @@ p{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: clamp(40px, 8vw, 110px) clamp(25px, 7vw, 100px);
+    justify-content: flex-end;
+    padding: clamp(35px, 6vw, 90px);;
+    background: linear-gradient(to bottom, transparent, var(--panel));
 }
 .hero-content {
     max-width: 900px;
@@ -135,10 +136,10 @@ p{
     display: grid;
     min-height: 600px;
     justify-content: center;
+    background: var(--panel);
 }
 
 .section-content {
-    padding: clamp(35px, 6vw, 90px);
     max-width: 1250px;
 }
 
