@@ -82,5 +82,8 @@ window.addEventListener('scroll', function ()
             header.style.borderBottom =
                 `0.5px solid color-mix(in srgb, transparent ${100 - headerProgress * 100}%, ${lineColor})`;
         }
+
+        const headerButtons = document.getElementsByTagName('a')[0];
+        headerButtons.style.height = headerButtons.height - 10 * headerProgress + 'px';
     });
 });
